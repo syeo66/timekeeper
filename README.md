@@ -1,5 +1,5 @@
-# go-timekeeper
-A small helper for tracking time spent in a function
+# timekeeper
+A small helper for tracking time spent in a function in Go
 
 ## Installation
 ```bash
