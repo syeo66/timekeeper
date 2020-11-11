@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+// EndText will be used to format the elapsed time and EndTime
 var EndText string = "calculation took %s"
 var start time.Time
 
