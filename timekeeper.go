@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+var EndText string = "calculation took %s"
 var start time.Time
 
 // StartTime starts the time keeping. Use it at the beginning of a function.
@@ -15,5 +16,5 @@ func StartTime() {
 // EndTime ends the time keeping and prints the elapsed time. Use `defer timekeeper.EndTime()` right after StartTime.
 func EndTime() {
 	elapsed := time.Since(start)
-	log.Printf("calculation took %s", elapsed)
+	log.Printf(EndText, elapsed)
 }
