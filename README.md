@@ -24,3 +24,7 @@ func main() {
     // do something else
 }
 ```
+
+## Documentation
+
+See [godoc](https://pkg.go.dev/github.com/syeo66/timekeeper#section-documentation) documentation 
